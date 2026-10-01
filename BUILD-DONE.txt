@@ -1,0 +1,7 @@
+Tests: 29 passed (pytest).
+Local implementation commit: 663e03ba3228f096304cc099e15eb31f2789bbc0
+Measured installed CLI demo: 0.9891 seconds for fixtures, run and markdown report on 200 synthetic records.
+
+Built a CPU-only, deterministic toy greedy speculative decoder with five CLI subcommands, explicit target and draft token inputs, per-step acceptance traces, atomic local result/report writes, labelled synthetic fixtures and independent hand-computed expectations. Markdown and JSON reports carry provenance and distinguish computed toy operation counts from unmeasured speedup. Tests cover exact ground truth, zero false positives, corrupted inputs, determinism, malformed and adversarial values, Unicode and write failures. README, local evidence, KOML lessons and a pending two-week real-use verdict document the scope and limitations. Publishing was not performed.
+
+The implementation hash above identifies the tested build; the following documentation-only commit adds this completion record.
