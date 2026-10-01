@@ -1,0 +1,6 @@
+# Synthetic five-record example: synthetic: true
+{"id": "tiny-0", "synthetic": true, "target": ["a", "b", "c", "d"], "draft": ["a", "b", "c", "d"], "block_size": 2}
+{"id": "tiny-1", "synthetic": true, "target": ["a", "b", "c", "d"], "draft": ["x", "x", "x", "x"], "block_size": 2}
+{"id": "tiny-2", "synthetic": true, "target": ["a", "b", "c", "d"], "draft": ["a", "x", "c", "d"], "block_size": 2}
+{"id": "tiny-3", "synthetic": true, "target": ["a", "b", "c", "d"], "draft": [], "block_size": 2}
+{"id": "tiny-4", "synthetic": true, "target": [], "draft": [], "block_size": 2}
